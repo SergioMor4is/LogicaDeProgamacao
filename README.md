@@ -1,2 +1,2 @@
-# LogicaDeProgamacao
- Estudos e praticas de Algoritmos utilizando a ferramenta "VisuAlg"
+# Logica De Programação
+ Estudos e praticas de algoritmos, utilizando o aplicativo "visualG"
