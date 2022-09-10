@@ -5,17 +5,17 @@ Var
 
 
 Inicio
-       S <- 6
-       N <- 100
+       S <- 500
+       N <- 0
        
        Repita
 
        Escreval(S)
-       S1 <- S + 2
+       S1 <- S - 50
        S2 <- S1 + S
        somatot <- S1 + S2
        
-       S <- S + 2
+       S <- S - 50
        
        ate S = N
        
