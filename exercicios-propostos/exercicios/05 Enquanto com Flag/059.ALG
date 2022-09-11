@@ -1,18 +1,26 @@
 Algoritmo "059"
 
+
 Var
        nome, sexo, resp: Caractere
-       idade_m, idade_maior, contador_m, contador, contador_f: Inteiro
-
+       idade_m, idade_maior, contador_m, contador, contador_f, idade_f, idade_tot: Inteiro
+       idade_ant, idade_menor_f: Inteiro
+       media_h:Real
 
 Inicio
        Escreval("--------------------------")
        Escreval("                          ")
        Escreval("--------------------------")
 
-contador, contador_f, contador_m <- 0
-idade_m, idade_f, idade_tot, idade_ant <- 0
-idade_maior, idade_menor_f <- 0
+contador <- 0
+contador_f <- 0
+contador_m <- 0
+idade_m <- 0
+idade_f <- 0
+idade_tot <- 0
+idade_ant <- 0
+idade_maior <- 0
+idade_menor_f <- 0
 resp <- "S"
 
        Enquanto (resp = "S") faca
@@ -22,9 +30,9 @@ resp <- "S"
        Escreval("Qual o seu sexo?:")
        Leia(sexo)
 
-                 Enquanto sexo = "M" faca
-                 Escreval("Qual a sua idade?:")
-                 Leia(idade_m)
+                 Se sexo = "M" entao
+                         Escreval("Qual a sua idade?:")
+                         Leia(idade_m)
 
                               Se idade_m > idade_maior entao
                               idade_maior <- idade_m
@@ -34,30 +42,33 @@ resp <- "S"
                               idade_tot <- idade_ant + idade_m
                               contador_m <- contador_m + 1
 
-                 FimEnquanto
-
-                 Enquanto sexo = "F" faca
-
-                 Escreval("Qual a sua idade?:")
-                 Leia(idade_f)
+                 senao
+                         Se sexo = "F" entao
+                         Escreval("Qual a sua idade?:")
+                         Leia(idade_f)
 
                               Se idade_f < idade_menor_f entao
                               idade_menor_f <- idade_f
                               FimSe
 
                               contador_f <- contador_f + 1
+                         FimSe
+                 FimSe
 
-                 FimEnquanto
 
-                 contador <- contador_f + contador_m
        Escreval("Deseja continuar? [S/N]")
        Leia(resp)
        
        FimEnquanto
 
-       media_h <-
-
-       Escreval(
+       media_h <- idade_tot / contador_m
+       
+       Escreval("--------------------------------")
+       Escreval("Maior idade:", idade_maior)
+       Escreval("Homens:", contador_m)
+       Escreval("Mulheres jovens:", idade_menor_f)
+       Escreval("Média idade homens:", media_h)
+       Escreval("--------------------------------")
 
 
 
