@@ -15,7 +15,6 @@ Inicio
                
                vezes <- vezes + 1
                
-               Escreval(num)
       
       FimEnquanto
       

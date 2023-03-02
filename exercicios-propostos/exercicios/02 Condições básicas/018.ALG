@@ -15,8 +15,7 @@ Inicio
       
       idade <- anoatual - anonasc
 
-            Se
-              idade >= 16 entao
+            Se (idade >= 16) entao
                      Escreval("Você tem ", idade, " e já pode votar.")
                      senao
                      Escreval("Você tem ", idade, " e não pode votar ainda.")

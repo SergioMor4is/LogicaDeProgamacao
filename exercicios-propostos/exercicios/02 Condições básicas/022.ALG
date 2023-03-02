@@ -7,7 +7,7 @@ Var
 
 Inicio
      Escreval("--------------------------")
-     Escreval("  Alistmento Militr 2023  ")
+     Escreval("  Alistmento Militar 2023  ")
      Escreval("--------------------------")
      Escreva("Qual o seu nome?:")
      Leia(nome)

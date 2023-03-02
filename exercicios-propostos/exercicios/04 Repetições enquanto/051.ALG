@@ -1,4 +1,4 @@
-Algoritmo "049"
+Algoritmo "051"
 
 Var
      cont, num, maior: Inteiro
@@ -9,7 +9,7 @@ Inicio
         Escreval("      Maior preço      ")
         Escreval("-----------------------")
         
-        maior<- 0
+        maior <- 0
         cont <- 0
         
         Repita

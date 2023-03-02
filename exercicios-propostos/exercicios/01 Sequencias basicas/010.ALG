@@ -17,7 +17,7 @@ Inicio
      area <- L1 * L2
      litro <- area / 2
      
-     Escreval("Essa parede tem uma area de", area, "m")
+     Escreval("Essa parede tem uma area de", area, "m²")
      Escreval("E serão gastos ", litro, " litros de tinta na pintura")
 
 

@@ -1,4 +1,4 @@
-Algoritmo "044"
+Algoritmo "045"
 // Insira até quanto deseja contar e defina o passo *UPDTE*
 Var
       val_inicial, val_fim, inc, contador: Real

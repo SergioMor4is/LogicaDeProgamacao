@@ -20,10 +20,10 @@ Inicio
       c2 <- 4 * a * c
       delta <- b2 - c2
       
-      Escreval("  b²-4.a.c   ")
-      Escreval("    ", b,"²-4.",a,".",c)
-      Escreval("       ",b2,"-",c2)
-      Escreval("         delta: ",delta)
+      Escreval("D: b²-4.a.c   ")
+      Escreval("  D:", b,"²-4.",a,".",c)
+      Escreval("    D:",b2,"-",c2)
+      Escreval("Delta: ",delta)
 
 
 Fimalgoritmo
