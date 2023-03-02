@@ -1,5 +1,5 @@
 Algoritmo "065"
-
+//Contador de 100 a 0 usando a repetição "para"
 Var
      contador: Inteiro
 

@@ -1,4 +1,4 @@
-Algoritmo "060"
+Algoritmo "068"
 // Medidas de pesos e calculo de quantidade em cima dos valores inseridos
 Var
        contador, peso, peso_m, peso_f, cont_m, maior_peso, menor_peso, cont_f: Inteiro

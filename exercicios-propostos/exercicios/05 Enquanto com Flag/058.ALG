@@ -1,5 +1,5 @@
 Algoritmo "058"
-
+//Cálculo de média de idade de uma sala de aula
 Var
      nome, resp: caractere
      contador, idade, idade_tot, media: Real

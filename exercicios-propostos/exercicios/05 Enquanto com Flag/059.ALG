@@ -1,5 +1,5 @@
 Algoritmo "059"
-
+//Cálculo de Idades
 
 Var
        nome, sexo, resp: Caractere
@@ -9,7 +9,7 @@ Var
 
 Inicio
        Escreval("--------------------------")
-       Escreval("                          ")
+       Escreval("     Input de Idade       ")
        Escreval("--------------------------")
 
 contador <- 0

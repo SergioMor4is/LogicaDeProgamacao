@@ -1,5 +1,5 @@
 Algoritmo "061"
-
+//Tábuada do 3
 Var
 contador: Inteiro
 

@@ -1,5 +1,5 @@
 Algoritmo "064"
-
+//Contador com repetição "Para"
 Var
      contador: Inteiro
 

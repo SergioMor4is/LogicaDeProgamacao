@@ -1,5 +1,5 @@
-Algoritmo "046"
-
+Algoritmo "047"
+//Contador de 500 a 0 com passo de 50
 Var
       S, N, S1, somatot, S2: Inteiro
 
@@ -10,12 +10,12 @@ Inicio
        
        Repita
 
-       Escreval(S)
-       S1 <- S - 50
-       S2 <- S1 + S
-       somatot <- S1 + S2
+             Escreval(S)
+             S1 <- S - 50
+             S2 <- S1 + S
+             somatot <- somatot + S2
        
-       S <- S - 50
+             S <- S - 50
        
        ate S = N
        

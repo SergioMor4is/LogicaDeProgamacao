@@ -1,5 +1,5 @@
 Algoritmo "057"
-
+//Cadastro de salários e posterior soma dos mesmos
 
 Var
      resp, nome, sexo: Caractere
@@ -30,9 +30,8 @@ salario_f <- 0
 
       senao
 
-           Se (sexo = "F") entao
-           salario_f <- salario_f + salario
-           FimSe
+      salario_f <- salario_f + salario
+
       FimSe
       
       FimEnquanto

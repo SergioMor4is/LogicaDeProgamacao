@@ -1,5 +1,5 @@
 Algoritmo "048"
-
+//Soma de 7 números
 Var
      num, vezes, somanum: Inteiro
 

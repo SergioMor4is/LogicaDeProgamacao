@@ -1,5 +1,5 @@
 Algoritmo "062"
-
+//Cálculo da média de idades
 Var
     resp, nome: Caractere
     idade, maior_21, idade_ant, idade_tot, contador:Inteiro
@@ -22,12 +22,11 @@ contador <- 0
                            
                 contador <- contador + 1
        
-                Escreval("------------------------")
                 Escreval("Deseja continuar? [S/N]")
                 Leia(resp)
                 
                 idade_ant <- idade
-                idade_tot <- idade_ant + idade
+                idade_tot <- idade_tot + idade
                 
        FimEnquanto
 

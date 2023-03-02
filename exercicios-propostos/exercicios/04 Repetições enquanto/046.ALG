@@ -1,5 +1,5 @@
 Algoritmo "046"
-
+//Contador e Soma do 6 ao 100 com passo de 2
 Var
       S, N, S1, somatot, S2: Inteiro
 
@@ -13,7 +13,7 @@ Inicio
        Escreval(S)
        S1 <- S + 2
        S2 <- S1 + S
-       somatot <- S1 + S2
+       somatot <- somatot + S2
        
        S <- S + 2
        
